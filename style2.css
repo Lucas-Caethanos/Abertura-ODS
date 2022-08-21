@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
 
+* {
+   margin: 0px;
+   padding: 0px;
+}
 :root{
 
    --cor01: #5EFA25;
@@ -17,3 +21,186 @@
    --FTitulo: 'Josefin Sans', sans-serif;
 
 }
+body{
+   background-image: url(Imagem/decreto-federal-regulamenta-a-exploracao-de-energia-eolica-offshore-no-brasil.jpg);
+   background-color: black;
+   height: 100vh;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   font-family: var(--Fprincipal);
+   
+
+}
+header{
+   background-color: var(--cor04);
+   background-image: radial-gradient(var(--cor03), var(--cor04));
+   min-height: 200px;
+   text-align: center;
+   
+}
+header > h1{
+   color: black;
+   font-family: var(--FTitulo);
+   font-size: 3em;
+   text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.499);
+   padding-bottom: 1px;
+}
+header > h2{
+   color: white;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   font-family: var(--Fdestaque);
+   font-size: 1.5em;
+   text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.499);
+}
+nav {
+   text-align: left;
+   margin-top: 25px;
+   background-color: var(--cor5);
+   padding: 10px;
+
+}
+nav>a {
+   color: white;
+   padding: 10px;
+   text-decoration: none;
+   border-radius: 5px;
+   font-weight: bold;
+   transition-duration: .3s;
+}
+nav>a:hover {
+   background-color: var(--cor02);
+}
+main{
+   min-width: 300px;
+    max-width: 1000px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.492);
+    border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+
+
+}
+main > article > h2{
+   font-family: var(--FTitulo);
+   font-weight: bold;
+   margin: 5px 5px 10px 0px;
+   background-image: linear-gradient(to right, var(--cor01), var(--cor02), transparent);
+   padding: 2px;
+   border-radius: 5px;
+}
+main > article > p{
+   font-family: var(--Fprincipal);
+   margin: 5px;
+   text-align: justify;
+   line-height: 1.5em;
+   font-weight: 500;
+   font-size: 1em;
+   text-indent: 30px;
+   padding: 3px;
+   
+}
+
+main > article > img{
+   display: block;
+    margin: auto;
+    max-width: 350px;
+    padding-bottom: 20px;
+    
+}
+article#dados{
+   display: block;
+   max-width: 80%;
+   margin: auto;
+   padding: 25px;
+}
+article#lista{
+   background-color: var(--cor03);
+   margin: 2px;
+   border-radius: 15px;
+   padding: 10px;
+   margin-bottom: 20px;
+}
+article#lista > ul{
+   list-style-position: inside;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   
+}
+article#lista > h3{
+   background-color: var(--cor05);
+   padding: 5px;
+   margin: -10px -10px 0px -10px;
+   border-radius: 10px 10px 0px 0px;
+   font-family: var(--Fdestaque);
+   font-weight: bold;
+
+}
+article#lista2 > h3{
+   background-color: var(--cor05);
+   padding: 5px;
+   margin: -10px -10px 0px -10px;
+   border-radius: 10px 10px 0px 0px;
+   font-family: var(--Fdestaque);
+   font-weight: bold;
+
+}
+article#lista2{
+   background-color: var(--cor03);
+   margin: 2px;
+   border-radius: 15px;
+   padding: 10px;
+   margin-bottom: 15px;
+}
+article#lista2 > ul{
+   list-style-position: inside;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   
+}
+
+footer{
+    font-family: var(--FTitulo);
+    background-color: var(--cor01);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 5px;
+}
+div.video{
+   background-color: whitesmoke;
+   display: block;
+   margin: 0px -10px  1px -10px;
+   padding: 20px;
+   padding-bottom: 47%;
+   position: relative;
+
+}
+div.video > iframe{
+   position: absolute;
+   top: 5%;
+   left: 15%;
+   width: 66.5%;
+   height: 80%;
+
+}
+article > ol > li{
+   font-family: var(--Fprincipal);
+   text-align: justify;
+   padding-bottom: 10px;
+   color: black;
+   font-size: 1em;
+}
+li > a{
+   padding-right: 1px;
+   text-decoration: none;
+   font-weight: bold;
+   transition-duration: .3s;
+   color: black;
+}
+
