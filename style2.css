@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+:root{
+
+   --cor01: #5EFA25;
+   --cor02: #AADE10;
+   --cor03: #F4E71D;
+   --cor04: #DEB310;
+   --cor05: #FFAD12;
+
+   --Fprincipal: Arial, Helvetica, sans-serif;
+   --Fdestaque: 'Aboreto', cursive;
+   --FTitulo: 'Josefin Sans', sans-serif;
+
+}
